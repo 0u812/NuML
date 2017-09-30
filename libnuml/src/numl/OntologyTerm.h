@@ -301,6 +301,8 @@ class LIBNUML_EXTERN OntologyTerms : public NUMLList
 {
 public:
 
+  virtual ~OntologyTerms() {}
+
 	/**
 	* Creates and returns a deep copy of this OntologyTerms instance.
 	*
