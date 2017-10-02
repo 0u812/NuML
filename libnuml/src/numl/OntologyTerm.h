@@ -312,7 +312,7 @@ public:
 	* Virtual destructor. The destructor must be virtual because this
 	* class has virtual methods.
 	*/
-	virtual ~OntologyTerms ();
+	virtual ~OntologyTerms () {}
 
 
 	/**

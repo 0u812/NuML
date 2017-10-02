@@ -279,8 +279,8 @@ OntologyTerm::writeAttributes (LIBSBML_CPP_NAMESPACE_QUALIFIER XMLOutputStream& 
 /*
  * Virtual destructor for OntologyTerms.
  */
-OntologyTerms::~OntologyTerms ()
-{}
+// OntologyTerms::~OntologyTerms ()
+// {}
 
 /*
  * @return a (deep) copy of this OntologyTerms.
