@@ -308,6 +308,12 @@ public:
 	*/
 	virtual OntologyTerms* clone () const;
 
+	/**
+	* Virtual destructor. The destructor must be virtual because this
+	* class has virtual methods.
+	*/
+	virtual ~OntologyTerms ();
+
 
 	/**
 	* Returns the libNUML type code for this %NUML object.
